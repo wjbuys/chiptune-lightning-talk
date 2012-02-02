@@ -1,0 +1,3 @@
+[submodule "vendor/bloopsaphone"]
+	path = vendor/bloopsaphone
+	url = https://github.com/mental/bloopsaphone.git
