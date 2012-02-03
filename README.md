@@ -2,15 +2,10 @@ Chiptune in ruby in 5 minutes
 =============================
 Lightning talk from [Rubyfuza](http://rubyfuza.org) 2012
 
-
 ### Set up the code (only works on Ubuntu Oneiric)
 
     bundle install
     rake setup
-
-### See the slides
-
-    rake slides
 
 ### Look at the lame talk code
 
@@ -19,6 +14,11 @@ Lightning talk from [Rubyfuza](http://rubyfuza.org) 2012
 ### Play the tunes!
 
     rake demo
+
+### See the slides (or online [here](http://wjbuys.com/chiptune-lightning-talk))
+
+    git checkout gh-pages
+    xdg-open index.html
 
 ## Credits:
 
