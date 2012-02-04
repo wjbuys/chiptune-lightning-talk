@@ -4,13 +4,13 @@ end
 
 task :setup => :dependencies do
   sh("git submodule init && git submodule update")
- Dir.cd "vendor/bloopsaphone" do
+  Dir.chdir "vendor/bloopsaphone" do
     sh("make ruby")
   end
 end
 
 task :demo do
-  Dir.cd "vendor/bloopsaphone/ext/ruby" do
+  Dir.chdir "vendor/bloopsaphone/ext/ruby" do
     sh("ruby tune_warp.rb")
   end
 end
